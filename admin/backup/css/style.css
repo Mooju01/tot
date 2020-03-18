@@ -1,0 +1,124 @@
+.card {
+  font-size: 0.875rem;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #eeeeee;
+  border-radius: 0.25rem;
+}
+.card {
+  border: 0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 6px;
+  color: #333333;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.card
+  [class*="card-header-"]:not(.card-header-icon):not(.card-header-text):not(.card-header-image) {
+  border-radius: 3px;
+  margin-top: -20px;
+  padding: 15px;
+}
+
+.card .card-header-primary .card-icon,
+.card .card-header-primary:not(.card-header-icon):not(.card-header-text),
+.card .card-header-primary .card-text {
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(34, 34, 34, 0.4);
+}
+
+.card .card-header-primary .card-icon,
+.card .card-header-primary .card-text,
+.card .card-header-primary:not(.card-header-icon):not(.card-header-text),
+.card.bg-primary,
+.card.card-rotate.bg-primary .front,
+.card.card-rotate.bg-primary .back {
+  background: linear-gradient(60deg, #48a9eb, #c5d5df);
+}
+.card [class*="card-header-"] {
+  margin: 0px 15px 0;
+  padding: 0;
+  position: relative;
+}
+
+.card .card-header {
+  z-index: 3 !important;
+}
+
+.card .card-header .card-title {
+  margin-bottom: 3px;
+}
+.card [class*="card-header-"] .card-title a,
+.card [class*="card-header-"] .card-title,
+.card [class*="card-header-"] .icon i,
+.card[class*="bg-"] .card-title a,
+.card[class*="bg-"] .card-title,
+.card[class*="bg-"] .icon i {
+  color: #fff;
+}
+
+table,
+td,
+tr,
+tbody {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 0.875rem;
+  padding: 15px;
+  margin-top: 15px;
+}
+table {
+  width: 100%;
+}
+.available a,
+.available {
+  background-color: #029402;
+  color: black;
+}
+.used a,
+.used {
+  background-color: #969696;
+  color: white;
+}
+.die a,
+.die {
+  background-color: #fc0032;
+  color: white;
+}
+
+.used,
+.die,
+.available {
+  border: 1px solid black;
+}
+
+td a {
+  display: block;
+}
+
+/*---สีข้อความ แจ้งเตือน-----*/
+form.cmxform label.error,
+label.error {
+  color: red;
+  font-style: italic;
+}
+
+/*---สีช่อง แจ้งเตือน-----*/
+select.error,
+input.error {
+  border: 1px dotted red;
+}
+
+.star {
+  color: red;
+}

@@ -1,0 +1,166 @@
+table,
+td,
+tr,
+tbody {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 0.875rem;
+  padding: 15px;
+  margin-top: 15px;
+}
+a{
+  text-decoration: none;
+}
+table {
+  width: 100%;
+}
+.available a,
+.available {
+  background-color: #029402;
+  color: #ffffff;
+}
+.used a,
+.used {
+  background-color: #969696;
+  color: #000000;
+}
+.die a,
+.die {
+  background-color: #fc0032;
+  color: white;
+}
+
+.used,
+.die,
+.available {
+  border: 1px solid black;
+}
+
+td a {
+  display: block;
+}
+
+/*---สีข้อความ แจ้งเตือน-----*/
+form.cmxform label.error,
+label.error,
+#select-error,
+.select-error2{
+  color: red;
+  font-style: italic;
+}
+
+/*---สีช่อง แจ้งเตือน-----*/
+select.error,
+input.error {
+  border: 1px dotted red;
+}
+
+.star {
+  color: red;
+}
+
+
+.map_title{
+  color : red;
+  font-size: 17px;
+}
+
+
+.head_title{
+  color : rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.location_name,
+.title-emp,
+.title-room,
+.title-add_edit,
+.title-add{
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.location_dis_name,
+.title-location{
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+
+.check_slot{
+  cursor: pointer;
+}
+
+.select_slot_edit,
+.select_slot_edit label{
+  background-color: blue;
+  color: #ffffff;
+}
+
+.label_slot{
+  font-size: 1rem;
+}
+
+.info-around{
+  font-size: 1rem;
+  color:  #000000;
+}
+
+.room-info,.emp-info{
+  font-size: 16px;
+  color:#000000;
+}
+
+.slect_tel{
+  color:red;
+  font-size: 16px;
+}
+
+
+@media only screen and (max-width:540px){
+  .location_name{
+    color : rgb(0, 0, 0);
+    font-size: 17px;
+  }
+  .title-emp,
+  .title-room,
+  .title-add_edit{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  .room-info,.emp-info{
+    font-size: 18px;
+    color:#000000;
+  }
+  .slect_tel{
+    color:red;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width:720px){
+  .title-emp,
+  .title-room,
+  .title-add_edit{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  .room-info,.emp-info{
+    font-size: 18px;
+    color:#000000;
+  }
+  .slect_tel{
+    color:red;
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width:960px){
+  .room-info,.emp-info{
+    font-size: 17px;
+    color:#000000;
+  }
+}
